@@ -1,0 +1,77 @@
+#root {
+    width: 530px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+.todo-form {
+    display: flex;
+}
+
+.user-input {
+    width: 450px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 5px 0 0 5px;
+    font-size: 22px;
+    outline: none;
+}
+
+.user-input::placeholder {
+    padding-left: 10px;
+}
+
+.add-todo-btn {
+    width: 75px;
+    height: 54px;
+
+    border: 1px solid #000000;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 35px;
+    outline: none;
+    cursor: pointer;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    margin-top: 5px;
+    border-bottom: 1px solid #CCC;
+}
+
+.checkbox {
+  width: 25px;
+    height: 25px;
+}
+
+.todo-text {
+    width: 375px;
+    font-size: 22px;
+}
+
+.delete-todo {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.state-panel {
+    padding-left: 5px;
+}
+
+.footer-delete-btn {
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+}
